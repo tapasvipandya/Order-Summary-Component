@@ -35,6 +35,7 @@ html {
   inset: 0;
   z-index: -1;
   background-color: var(--pale-blue);
+  text-align: center;
 }
 
 .container__top > img {
@@ -153,6 +154,7 @@ html {
     inset: 0;
     z-index: -1;
     background-color: var(--pale-blue);
+    height: 100vh;
   }
 
   .container__middle {
@@ -178,7 +180,7 @@ html {
   }
 
   .plan__details {
-    padding-right: 6.5rem;
+    padding-right: 5.0rem;
   }
 
   .change__link {

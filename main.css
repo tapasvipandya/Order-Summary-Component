@@ -14,6 +14,7 @@ html {
   padding: 0;
   margin: 0;
   font-family: var(--primary-font);
+  background: var(--very-pale-blue);
 }
 
 .container {
@@ -23,19 +24,19 @@ html {
   background: #ffffff;
   height: 567px;
   box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  z-index: 3;
+  position: relative;
 }
 
 .container__top img {
   border-radius: 20px 20px 0px 0px;
 }
 
-.container::before {
+main::before {
   content: url(images/pattern-background-mobile.svg);
   position: absolute;
   inset: 0;
-  z-index: -1;
-  background-color: var(--pale-blue);
-  text-align: center;
+  z-index: 1;
 }
 
 .container__top > img {
@@ -148,13 +149,12 @@ html {
     height: 697px;
   }
 
-  .container::before {
+  main::before {
     content: url(images/pattern-background-desktop.svg);
     position: absolute;
     inset: 0;
-    z-index: -1;
-    background-color: var(--pale-blue);
-    height: 100vh;
+    z-index: 1;
+    text-align: center;
   }
 
   .container__middle {
@@ -180,7 +180,7 @@ html {
   }
 
   .plan__details {
-    padding-right: 5.0rem;
+    padding-right: 5rem;
   }
 
   .change__link {

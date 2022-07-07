@@ -102,10 +102,10 @@ html {
   padding-right: 0.9rem;
 }
 
-.change__link:hover{
-    cursor: pointer;
-    color: #766CF1;
-    text-decoration: none;
+.change__link:hover {
+  cursor: pointer;
+  color: #766cf1;
+  text-decoration: none;
 }
 
 .payment__button {
@@ -119,9 +119,9 @@ html {
   border: none;
 }
 
-.payment__button:hover{
-    cursor: pointer;
-    background: #766CF1;
+.payment__button:hover {
+  cursor: pointer;
+  background: #766cf1;
 }
 
 .cancel__link {
@@ -134,9 +134,9 @@ html {
   color: var(--desaturated-blue);
 }
 
-.cancel__link > a:hover{
-    color: var(--dark-blue);
-    cursor: pointer;
+.cancel__link > a:hover {
+  color: var(--dark-blue);
+  cursor: pointer;
 }
 
 /* Media Queries */
@@ -181,7 +181,7 @@ html {
     padding-right: 6.5rem;
   }
 
-  .change__link{
+  .change__link {
     font-size: 0.9rem;
   }
   .cta {
@@ -190,7 +190,6 @@ html {
   .payment__button {
     width: 21rem;
     font-weight: 900;
-
   }
 
   .cancel__link {
